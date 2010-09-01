@@ -17,6 +17,8 @@ require('./lib/OrionServer');
 var myServer = OrionServer.create({
    port: 8080,
    store: OrionStore.create(), 
+   RESTPrefix: '/API/REST/Service.svc/',
+   allowWebSocket: NO,
    authModule: OrionFileAuth.create({ fileName: './myUsers'}),
    sessionModule: OrionSession.create({ sessionName: 'OrionServer' }),
    policyModule: OrionPolicies.create({ policyFile: './myPolicies'})
