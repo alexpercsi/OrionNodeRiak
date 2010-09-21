@@ -1,6 +1,6 @@
 exports.contacts = [
   {
-    id: '1',
+    id: 1,
     type: 'Contact',
     firstName: 'Sean',
     lastName: 'Eidemiller',
@@ -12,7 +12,7 @@ exports.contacts = [
     activityDelta: 10
   },
   {
-    id: '2',
+    id: 2,
     type: 'Contact',
     firstName: 'Mike',
     lastName: 'Ball',
@@ -24,7 +24,7 @@ exports.contacts = [
     activityDelta: 3
   },
   {
-    id: '3',
+    id: 3,
     type: 'Contact',
     firstName: 'Evin',
     lastName: 'Grano',
