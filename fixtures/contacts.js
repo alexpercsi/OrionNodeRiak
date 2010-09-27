@@ -6,6 +6,7 @@ exports.contacts= [ { id: 1
   , subscribed: 'false'
   , bounceback: 'false'
   , accountName: 'Eloqua Limited'
+  , address1: 'Vienna, VA'
   , title: 'Software Engineer'
   , activityDelta: 10
   }
@@ -17,6 +18,7 @@ exports.contacts= [ { id: 1
   , subscribed: 'false'
   , bounceback: 'false'
   , accountName: 'Eloqua Limited'
+  , address1: 'Vienna, VA'
   , title: 'Software Engineer'
   , activityDelta: 3
   , depth: 'complete'
@@ -29,6 +31,7 @@ exports.contacts= [ { id: 1
   , subscribed: 'false'
   , bounceback: 'false'
   , accountName: 'Eloqua Limited'
+  , address1: 'Vienna, VA'
   , title: 'Software Engineer'
   , activityDelta: -3
   }
@@ -40,6 +43,7 @@ exports.contacts= [ { id: 1
   , subscribed: 'false'
   , bounceback: 'false'
   , accountName: 'TPG'
+  , address1: 'Cluj-Napoca, CJ'
   , title: 'Technical Lead'
   , activityDelta: 6
   , depth: 'complete'
@@ -52,6 +56,7 @@ exports.contacts= [ { id: 1
   , subscribed: 'false'
   , bounceback: 'false'
   , accountName: 'TPG'
+  , address1: 'Cluj-Napoca, CJ'
   , title: 'Senior UI Developer'
   , activityDelta: 1
   , depth: 'complete'
