@@ -12,7 +12,7 @@ exports.accounts= [ { id: 1
   , fieldValues: []
   , activityDelta: 10
   , isTracked: true
-  , contactsCount: '90 Contacts'
+  , contactsCount: '<span>90</span> Contacts'
   , depth: 'complete'
   }
 , { id: 2
@@ -29,6 +29,6 @@ exports.accounts= [ { id: 1
   , fieldValues: []
   , activityDelta: 7
   , isTracked: false
-  , contactsCount: '120 Contacts'
+  , contactsCount: '<span>120</span> Contacts'
   }
 ];
