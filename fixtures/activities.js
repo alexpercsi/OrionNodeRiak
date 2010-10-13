@@ -2,6 +2,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Website Visit'
   , contact: '1'
+  , isBuySignal: true
   , activityType: ''
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
@@ -14,6 +15,7 @@ exports.activities= [ { id: 1
   , name: 'Email Open'
   , contact: '1'
   , activityType: ''
+  , isBuySignal: false
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
   , assetType: ''
@@ -24,6 +26,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Website Visit'
   , contact: '2'
+  , isBuySignal: true
   , activityType: ''
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
@@ -35,6 +38,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Email Open'
   , contact: '2'
+  , isBuySignal: false
   , activityType: ''
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
@@ -46,6 +50,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Website Visit'
   , contact: '3'
+  , isBuySignal: true
   , activityType: ''
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
@@ -57,6 +62,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Email Open'
   , contact: '3'
+  , isBuySignal: false
   , activityType: ''
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
@@ -68,6 +74,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Website Visit'
   , contact: '4'
+  , isBuySignal: true
   , activityType: ''
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
@@ -79,6 +86,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Email Open'
   , contact: '4'
+  , isBuySignal: false
   , activityType: ''
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
@@ -90,6 +98,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Website Visit'
   , contact: '5'
+  , isBuySignal: true
   , activityType: ''
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
@@ -101,6 +110,7 @@ exports.activities= [ { id: 1
   , type: 'Activity'
   , name: 'Email Open'
   , contact: '5'
+  , isBuySignal: false
   , activityType: ''
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
