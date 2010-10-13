@@ -11,6 +11,9 @@ exports.accounts= [ { id: 1
   , businessPhone: '555-232-3332'
   , fieldValues: []
   , activityDelta: 10
+  , isTracked: true
+  , contactsCount: '90 Contacts'
+  , depth: 'complete'
   }
 , { id: 2
   , type: 'Account'
@@ -25,5 +28,7 @@ exports.accounts= [ { id: 1
   , businessPhone: '703-435-6365'
   , fieldValues: []
   , activityDelta: 7
+  , isTracked: false
+  , contactsCount: '120 Contacts'
   }
 ];

@@ -22,6 +22,7 @@ exports.contacts= [ { id: 1
   , title: 'Software Engineer'
   , activityDelta: 3
   , depth: 'complete'
+  , isTracked: NO
   }
 , { id: 3
   , type: 'Contact'
@@ -34,6 +35,7 @@ exports.contacts= [ { id: 1
   , address1: 'Vienna, VA'
   , title: 'Software Engineer'
   , activityDelta: -3
+  , isTracked: NO
   }
 , { id: 4
   , type: 'Contact'
@@ -47,6 +49,7 @@ exports.contacts= [ { id: 1
   , title: 'Technical Lead'
   , activityDelta: 6
   , depth: 'complete'
+  , isTracked: NO
   }
 , { id: 5
   , type: 'Contact'
@@ -60,5 +63,6 @@ exports.contacts= [ { id: 1
   , title: 'Senior UI Developer'
   , activityDelta: 1
   , depth: 'complete'
+  , isTracked: NO
   }
 ];
