@@ -27,9 +27,9 @@ exports.accounts= [ { id: 1
   , country: 'USA'
   , businessPhone: '703-435-6365'
   , fieldValues: []
-  , isTracked: false
+  , isTracked: true
   , activityDelta: 7
-  , isTracked: false
   , contactsCount: '<span>120</span> Contacts'
+  , depth: 'complete'
   }
 ];

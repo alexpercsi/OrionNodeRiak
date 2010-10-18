@@ -3,18 +3,18 @@ exports.activities= [ { id: 1
   , name: 'Website Visit'
   , contact: '1'
   , isBuySignal: true
-  , activityType: ''
+  , activityType: 'webVisit'
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'URL', Value: 'http://www.sitevisited.com/page.php' }]
   , accountId: 1
   }
 , { id: 2
   , type: 'Activity'
   , name: 'Email Open'
   , contact: '1'
-  , activityType: ''
+  , activityType: 'emailOpen'
   , isBuySignal: false
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
@@ -24,26 +24,26 @@ exports.activities= [ { id: 1
   }
 , { id: 3
   , type: 'Activity'
-  , name: 'Website Visit'
+  , name: 'Form Submission'
   , contact: '2'
   , isBuySignal: true
-  , activityType: ''
+  , activityType: 'formSubmit'
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'FormAssetName', Value: 'My Simple Form' }, { Key: 'FirstName', Value: 'John' }, { Key: 'LastName', Value: 'Smith'}, { Key: 'Role', Value: 'Vice President'}, { Key: 'Telephone', Value: '703-555-9876' }]
   , accountId: 1
   }
 , { id: 4
   , type: 'Activity'
-  , name: 'Email Open'
+  , name: 'Email Clickthrough'
   , contact: '2'
   , isBuySignal: false
-  , activityType: ''
+  , activityType: 'emailClickThrough'
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'Subject', Value: 'My Simple Email' }, { Key: 'URL', Value: 'http://visited.this.com/index.asp?id=20&name=John' }, { Key: 'FromName', Value: 'John Smith' }, { Key: 'FromAddress', Value: 'jsmith@email.com' }, { Key: 'EmailAssetName', Value: 'My First Email Template' }]
   , accountId: 1
   }
 , { id: 5
@@ -51,11 +51,11 @@ exports.activities= [ { id: 1
   , name: 'Website Visit'
   , contact: '3'
   , isBuySignal: true
-  , activityType: ''
+  , activityType: 'webVisit'
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'URL', Value: 'http://www.sitevisited.com/page.php' }]
   , accountId: 1
   }
 , { id: 6
@@ -63,7 +63,7 @@ exports.activities= [ { id: 1
   , name: 'Email Open'
   , contact: '3'
   , isBuySignal: false
-  , activityType: ''
+  , activityType: 'emailOpen'
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
   , assetType: ''
@@ -75,11 +75,11 @@ exports.activities= [ { id: 1
   , name: 'Website Visit'
   , contact: '4'
   , isBuySignal: true
-  , activityType: ''
+  , activityType: 'webVisit'
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'URL', Value: 'http://www.sitevisited.com/page.php' }]
   , accountId: 2
   }
 , { id: 8
@@ -87,7 +87,7 @@ exports.activities= [ { id: 1
   , name: 'Email Open'
   , contact: '4'
   , isBuySignal: false
-  , activityType: ''
+  , activityType: 'emailOpen'
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
   , assetType: ''
@@ -99,11 +99,11 @@ exports.activities= [ { id: 1
   , name: 'Website Visit'
   , contact: '5'
   , isBuySignal: true
-  , activityType: ''
+  , activityType: 'webVisit'
   , activityDate: '2010-10-07T10:00:00+02:00'
   , asset: ''
   , assetType: ''
-  , details: []
+  , details: [{ Key: 'URL', Value: 'http://www.sitevisited.com/page.php' }]
   , accountId: 2
   }
 , { id: 10
@@ -111,7 +111,7 @@ exports.activities= [ { id: 1
   , name: 'Email Open'
   , contact: '5'
   , isBuySignal: false
-  , activityType: ''
+  , activityType: 'emailOpen'
   , activityDate: '2010-10-06T10:00:00+02:00'
   , asset: ''
   , assetType: ''
